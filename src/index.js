@@ -1,23 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Card from './components/Card'
-import Welcome from './components/Welcome'
 import 'bootstrap/dist/css/bootstrap.css'
+import App from './components/App'
 
 const container = document.getElementById('root')
 
-ReactDOM.render(<div>
-    <Welcome 
-    username = 'Erick'
-    />
-    <Card
-        title = 'Technique Guides'
-        description = 'Learn amazing street workout and calisthenics'
-        img = ''
-        leftColor = '#A74CF2'
-        rightColor = '#617BFB'
-    />
-</div>, container )
+ReactDOM.render(<App />, container)
 
 // const user = {
 //     firstName: 'Erick',
