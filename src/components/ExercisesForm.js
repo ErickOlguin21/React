@@ -12,7 +12,7 @@ const ExercisesForm = ({ onChange, onSubmit, form }) => (
                     placeholder="title" 
                     name="title"
                     onChange={onChange}
-                    value={form.title}
+                    value={form.ittle}
                 />
             </div>
             <div className="form-group">
